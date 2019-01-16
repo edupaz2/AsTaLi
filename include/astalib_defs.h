@@ -6,6 +6,7 @@
 
 using task_id = std::uint32_t; // [0,49] Error codes. [50, MAXINT] Task ids
 using task_type = std::uint32_t;
+const task_id FIRST_TASK_ID = 50;
 struct STaskStatus
 {
 	task_id 	id;
